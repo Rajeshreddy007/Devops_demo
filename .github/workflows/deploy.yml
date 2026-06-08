@@ -6,8 +6,8 @@ on:
       - master
 
 env:
-  AWS_REGION: ap-south-1
-  ECR_REPOSITORY: repository/devopsrepository/demo
+  AWS_REGION: ap-south-2
+  ECR_REPOSITORY: devopsrepository/demo
 
 jobs:
   build:
