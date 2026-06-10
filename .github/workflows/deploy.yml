@@ -5,6 +5,9 @@ on:
     branches:
       - master
 
+permissions:
+  contents: read
+
 env:
   AWS_REGION: ap-south-2
   ECR_REPOSITORY: devopsrepository/demo
